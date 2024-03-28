@@ -5,7 +5,7 @@ import datetime
 
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler, TensorDataset, random_split
 
-def read_data(file_path = '../datasets/01_preprocessed_datasets/dataset_preprocessed.csv'):
+def read_data(file_path = '../datasets/01_preprocessed_datasets/dataset_preprocessed_no_transformation.csv'):
     
     # load the dataset
     df = pd.read_csv(file_path)
