@@ -1,0 +1,2 @@
+Epoch,Training_Loss,Training_Accuracy,Validation_Loss,Validation_Accuracy,Training_Time,Validation_Time
+1,0.6033141220099294,0.6988696950309246,0.6051179194252078,0.7356579227980385,0:22:49,0:03:28
