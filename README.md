@@ -50,7 +50,7 @@ additional dataset
 ## Models trained
 
 | Modeltype | Dataset | Learning Rate | Encoding | Trained? |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | bert_base     | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 | , YES |
 | bert_base     | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 | , YES |
 | bert_base     | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 | , YES |
