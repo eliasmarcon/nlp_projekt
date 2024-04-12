@@ -51,34 +51,34 @@ additional dataset
 
 | Modeltype | Dataset | Learning Rate | Encoding | Trained? |
 | --- | --- | --- | --- | --- |
-| bert_base     | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 | , YES |
-| bert_base     | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 | , YES |
-| bert_base     | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 | , YES |
-| bert_base     | dataset_preprocessed_stopwords         | 0.0001   | 256, 512 | , YES |
-| bert_base     | dataset_preprocessed_stopwords         | 0.00002  | 256, 512 | , YES |
-| bert_base     | dataset_preprocessed_stopwords         | 0.00005  | 256, 512 | , YES |
-| distilbert    | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 | , YES |
-| distilbert    | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 | , YES |
-| distilbert    | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 | , YES |
-| distilbert    | dataset_preprocessed_stopwords         | 0.0001   | 256, 512 | , YES |
-| distilbert    | dataset_preprocessed_stopwords         | 0.00002  | 256, 512 | , YES |
-| distilbert    | dataset_preprocessed_stopwords         | 0.00005  | 256, 512 | , YES |
-| albert_base   | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 |  |
-| albert_base   | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 |  |
-| albert_base   | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 |  |
-| albert_base   | dataset_preprocessed_stopwords         | 0.0001   | 256, 512 |  |
-| albert_base   | dataset_preprocessed_stopwords         | 0.00002  | 256, 512 |  |
-| albert_base   | dataset_preprocessed_stopwords         | 0.00005  | 256, 512 |  |
-| roberta       | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 | , YES |
-| roberta       | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 | , YES |
-| roberta       | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 | , YES |
-| roberta       | dataset_preprocessed_stopwords         | 0.0001   | 256, 512 | , YES |
-| roberta       | dataset_preprocessed_stopwords         | 0.00002  | 256, 512 | , YES |
-| roberta       | dataset_preprocessed_stopwords         | 0.00005  | 256, 512 | , YES |
-| transformer   | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 | , YES |
-| transformer   | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 | , YES |
-| transformer   | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 | , YES |
-| transformer   | dataset_preprocessed_stopwords         | 0.0001   | 256, 512 |  |
-| transformer   | dataset_preprocessed_stopwords         | 0.00002  | 256, 512 |  |
-| transformer   | dataset_preprocessed_stopwords         | 0.00005  | 256, 512 |  |
+| bert_base     | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 | YES, YES |
+| bert_base     | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 | YES, YES |
+| bert_base     | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 | YES, YES |
+| bert_base     | dataset_preprocessed_stopwords         | 0.0001   | 256, 512 | YES, YES |
+| bert_base     | dataset_preprocessed_stopwords         | 0.00002  | 256, 512 | YES, YES |
+| bert_base     | dataset_preprocessed_stopwords         | 0.00005  | 256, 512 | YES, YES |
+| distilbert    | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 | YES, YES |
+| distilbert    | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 | YES, YES |
+| distilbert    | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 | YES, YES |
+| distilbert    | dataset_preprocessed_stopwords         | 0.0001   | 256, 512 | YES, YES |
+| distilbert    | dataset_preprocessed_stopwords         | 0.00002  | 256, 512 | YES, YES |
+| distilbert    | dataset_preprocessed_stopwords         | 0.00005  | 256, 512 | YES, YES |
+| albert_base   | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 | , YES |
+| albert_base   | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 | , YES |
+| albert_base   | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 | , YES |
+| albert_base   | dataset_preprocessed_stopwords         | 0.0001   | 256, 512 | , YES |
+| albert_base   | dataset_preprocessed_stopwords         | 0.00002  | 256, 512 | , YES |
+| albert_base   | dataset_preprocessed_stopwords         | 0.00005  | 256, 512 | , YES |
+| roberta       | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 | YES, YES |
+| roberta       | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 | YES, YES |
+| roberta       | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 | YES, YES |
+| roberta       | dataset_preprocessed_stopwords         | 0.0001   | 256, 512 | YES, YES |
+| roberta       | dataset_preprocessed_stopwords         | 0.00002  | 256, 512 | YES, YES |
+| roberta       | dataset_preprocessed_stopwords         | 0.00005  | 256, 512 | YES, YES |
+| transformer   | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 | YES, YES |
+| transformer   | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 | YES, YES |
+| transformer   | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 | YES, YES |
+| transformer   | dataset_preprocessed_stopwords         | 0.0001   | 256, 512 | YES, YES |
+| transformer   | dataset_preprocessed_stopwords         | 0.00002  | 256, 512 | YES, YES |
+| transformer   | dataset_preprocessed_stopwords         | 0.00005  | 256, 512 | YES, YES |
 
