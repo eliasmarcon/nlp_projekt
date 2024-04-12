@@ -1,3 +1,5 @@
 /testing/*
 /testing
 /models
+/datasets/02_LLM_datasets/*
+/datasets/02_LLM_datasets

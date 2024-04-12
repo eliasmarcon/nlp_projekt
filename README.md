@@ -29,3 +29,56 @@ pip install -r requirements.txt
 additional dataset
 - https://github.com/Vicomtech/hate-speech-dataset
 - https://huggingface.co/Hate-speech-CNERG/bert-base-uncased-hatexplain
+
+
+## Max Lengths Models and Datasets
+
+| Modeltype | Dataset | Max Length |
+| --- | --- | --- |
+| bert_base     | dataset_preprocessed_no_transformation | 443 |
+| bert_base     | dataset_preprocessed_stopwords         | 293 |
+| distilbert    | dataset_preprocessed_no_transformation | 443 |
+| distilbert    | dataset_preprocessed_stopwords         | 293 |
+| albert_base   | dataset_preprocessed_no_transformation | 439 |
+| albert_base   | dataset_preprocessed_stopwords         | 287 |
+| roberta       | dataset_preprocessed_no_transformation | 521 |
+| roberta       | dataset_preprocessed_stopwords         | 371 |
+| transformer   | dataset_preprocessed_no_transformation | 443 |
+| transformer   | dataset_preprocessed_stopwords         | 293 |
+
+
+## Models trained
+
+| Modeltype | Dataset | Learning Rate | Encoding | Trained? |
+| --- | --- | --- | --- | --- |
+| bert_base     | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 | YES, YES |
+| bert_base     | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 | YES, YES |
+| bert_base     | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 | YES, YES |
+| bert_base     | dataset_preprocessed_stopwords         | 0.0001   | 256, 512 | YES, YES |
+| bert_base     | dataset_preprocessed_stopwords         | 0.00002  | 256, 512 | YES, YES |
+| bert_base     | dataset_preprocessed_stopwords         | 0.00005  | 256, 512 | YES, YES |
+| distilbert    | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 | YES, YES |
+| distilbert    | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 | YES, YES |
+| distilbert    | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 | YES, YES |
+| distilbert    | dataset_preprocessed_stopwords         | 0.0001   | 256, 512 | YES, YES |
+| distilbert    | dataset_preprocessed_stopwords         | 0.00002  | 256, 512 | YES, YES |
+| distilbert    | dataset_preprocessed_stopwords         | 0.00005  | 256, 512 | YES, YES |
+| albert_base   | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 | , YES |
+| albert_base   | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 | , YES |
+| albert_base   | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 | , YES |
+| albert_base   | dataset_preprocessed_stopwords         | 0.0001   | 256, 512 | , YES |
+| albert_base   | dataset_preprocessed_stopwords         | 0.00002  | 256, 512 | , YES |
+| albert_base   | dataset_preprocessed_stopwords         | 0.00005  | 256, 512 | , YES |
+| roberta       | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 | YES, YES |
+| roberta       | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 | YES, YES |
+| roberta       | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 | YES, YES |
+| roberta       | dataset_preprocessed_stopwords         | 0.0001   | 256, 512 | YES, YES |
+| roberta       | dataset_preprocessed_stopwords         | 0.00002  | 256, 512 | YES, YES |
+| roberta       | dataset_preprocessed_stopwords         | 0.00005  | 256, 512 | YES, YES |
+| transformer   | dataset_preprocessed_no_transformation | 0.0001   | 256, 512 | YES, YES |
+| transformer   | dataset_preprocessed_no_transformation | 0.00002  | 256, 512 | YES, YES |
+| transformer   | dataset_preprocessed_no_transformation | 0.00005  | 256, 512 | YES, YES |
+| transformer   | dataset_preprocessed_stopwords         | 0.0001   | 256, 512 | YES, YES |
+| transformer   | dataset_preprocessed_stopwords         | 0.00002  | 256, 512 | YES, YES |
+| transformer   | dataset_preprocessed_stopwords         | 0.00005  | 256, 512 | YES, YES |
+
