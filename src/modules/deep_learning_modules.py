@@ -17,7 +17,7 @@ def read_data(file_path = '../datasets/01_preprocessed_datasets/dataset_preproce
 
 
 def tokenize_data(sentences, labels, tokenizer, max_length):
-    
+
     # Tokenize all of the sentences and map the tokens to thier word IDs.
     input_ids = []
     attention_masks = []
@@ -87,3 +87,31 @@ def format_time(elapsed):
     
     # Format as hh:mm:ss
     return str(datetime.timedelta(seconds=elapsed_rounded))
+
+
+def get_loss_logits(modeltype, model, b_input_ids, b_input_mask, b_labels):
+    
+    if modeltype == "distilbert":
+        
+        loss = model(b_input_ids,
+                    attention_mask=b_input_mask,
+                    labels=b_labels).loss
+        
+        logits = model(b_input_ids,
+                       attention_mask=b_input_mask,
+                       labels=b_labels).logits
+        
+        
+    elif modeltype in ["bert_base", "albert_base", "transformer", "roberta"]:
+    
+        loss = model(b_input_ids, 
+                    token_type_ids=None, 
+                    attention_mask=b_input_mask,
+                    labels=b_labels).loss
+        
+        logits = model(b_input_ids,
+                    token_type_ids=None,
+                    attention_mask=b_input_mask,
+                    labels=b_labels).logits
+        
+    return loss, logits
