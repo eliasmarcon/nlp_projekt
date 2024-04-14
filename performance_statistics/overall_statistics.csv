@@ -59,3 +59,4 @@ model_transformer_2e-05_256_dataset_preprocessed_no_transformation,0.70036255065
 model_transformer_5e-05_256_dataset_preprocessed_no_transformation,0.5474514821923651,0,4244,0,5134,0.0
 model_transformer_2e-05_256_dataset_preprocessed_stopwords,0.5481979100021327,0,4237,0,5141,0.0
 model_transformer_5e-05_256_dataset_preprocessed_stopwords,0.5481979100021327,0,4237,0,5141,0.0
+model_transformer_2e-05_512_dataset_preprocessed_no_transformation,0.818511409682235,3357,887,815,4319,0.633260776327569
